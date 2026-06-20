@@ -1,0 +1,25 @@
+
+# Night Sky Theme Background
+print("✨🌌✨🌌✨🌌✨🌌✨🌌✨🌌✨🌌✨🌌✨")
+print("🌌  *   .   🌙   .   *   .   *   🌌")
+print("🌌    .   ✨ MOOD MAGIC ✨   .   🌌")
+print("🌌  *   .   .   *   ⭐   .   *   🌌")
+print("✨🌌✨🌌✨🌌✨🌌✨🌌✨🌌✨🌌✨🌌✨\n")
+
+user_name = input("Aapka naam kya hai? ")
+mood = input("Aaj aapka mood kaisa hai? (happy / sad / excited): ").lower()
+
+print(f"\nHey {user_name}, coding seekhna ek super power hai! Aapke liye ek gift:")
+
+if mood == "happy":
+    print("😊 ✨ " * 5)
+    print("Keep smiling and coding!")
+elif mood == "sad":
+    print("🤗 💪 " * 5)
+    print("Rona nahi hai! Aap champion banogi. Chalo ek aur baar try karein!")
+elif mood == "excited":
+    print("🚀 🔥 " * 5)
+    print("Wow! Is energy se aap jaldi hi advanced python seekh jaongi!")
+else:
+    print("🌟 🎉 " * 5)
+    print("You are doing great! Happy learning!")
